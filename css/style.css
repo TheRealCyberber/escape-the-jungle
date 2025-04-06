@@ -16,6 +16,13 @@ h1, h2, h3 {
     color: aliceblue;
 }
 
+.game-rule {
+    display:list-item;
+    color: white;
+    text-align: left; 
+    padding-left: 20px;
+    font-size: large;
+}
 
 p {
     color: white;
