@@ -1,6 +1,6 @@
 README
 
-1. Namd and Description of the game
+1. Name and Description of the game
 
 a. Name: Escape the jungle
 
