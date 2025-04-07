@@ -3,12 +3,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    align-items: center; 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; 
-    align-items: center; 
-    font-family: Arial, sans-serif;
+    font-family: 'Ruslan Display', cursive;
+    font-size:x-large;
 }
 
 
@@ -20,8 +16,12 @@ h1, h2, h3 {
     display:list-item;
     color: white;
     text-align: left; 
-    padding-left: 20px;
     font-size: large;
+    margin-left: 0;
+}
+
+#question {
+    font-family: 'Ruslan Display', cursive;
 }
 
 p {
@@ -34,6 +34,11 @@ p {
 
 #reset {
     background-color: #d32f2f;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    margin: 0 auto; 
 }
 
 #reset:hover {
@@ -44,10 +49,11 @@ p {
 .answers {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
-    margin-bottom: 50px;
     align-items: center; 
+    justify-content: center; 
+    margin: 0 auto; 
   }
+  
   
   .answer-btn {
     background-color: greenyellow;
@@ -56,8 +62,9 @@ p {
     background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: 'Ruslan Display', cursive;
     color: white;
-    align-items: center; 
+    font-size: large;
   }
 
   .answer-btn:hover {

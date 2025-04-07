@@ -96,23 +96,29 @@ function showQuestion() {
 }
 
 function checkAnswer(index) {
-    if (index === questions[currentQuestion].correct) {
-        currentQuestion++;
-        messageText.textContent = "Correct answer. Next question";
-        if (currentQuestion === questions.length) {
-            endGame("Congratulations! You found your way out of the jungle!");
-            return;
-        }
-    } else {
-        health -= healthLoss;
-        healthText.textContent = "Heath: " + health;
-        messageText.textContent = "Wrong answer. 3 points lost";
-        if (health <= 0) {
-            endGame("You're dead! You lost")
-            return;
-        }
-    }
-    showQuestion();
+  if (health <= 0) {
+      // If health is already 0, prevent further gameplay
+      return;
+  }
+
+  if (index === questions[currentQuestion].correct) {
+      currentQuestion++;
+      messageText.textContent = "Correct answer. Next question";
+      if (currentQuestion === questions.length) {
+          endGame("Congratulations! You found your way out of the jungle!");
+          return;
+      }
+  } else {
+      health -= healthLoss;
+      healthText.textContent = "Health: " + health;
+      messageText.textContent = "Wrong answer. 3 points lost";
+      if (health <= 0) {
+          endGame("You're dead! You lost");
+          return;
+      }
+  }
+
+  showQuestion();
 }
 
 function endGame(message) {
