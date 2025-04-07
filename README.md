@@ -18,7 +18,7 @@ I chose this game because it combines between being simple and interesting.
 
 2. Screenshot of the game
 
-<img src="https://drive.google.com/file/d/1Bz6xMsmyeW3fnjn-9S_Rt9EUVPJUlTCf/view?usp=sharing" alt="Image from Google Drive">
+<img src="https://i.imgur.com/QcmfYPy.png" alt="Image from Google Drive">
 
 
 3. Deployed game link
