@@ -24,7 +24,7 @@ I chose this game because it combines between being simple and interesting.
 
 3. Deployed game link
 
-
+https://therealcyberber.github.io/escape-the-jungle/
 
 4. Techonologies used
 
