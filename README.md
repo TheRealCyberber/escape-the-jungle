@@ -6,11 +6,12 @@ a. Name: Escape the jungle
 
 b. Description
 
-The game starts with the player having 10 health points.
-The player is presented with a question and three possible answers
-If the player answers correctly, they proceed to the next question.
-If the player answers incorrectly, they lose 3 health points.
-If the player answers all questions correctly, they win the game. If the player's health reaches 0, they lose the game.
+- The game starts with the player having 10 health points.
+- The player is presented with a question and three possible answers
+- If the player answers correctly, they proceed to the next question.
+- If the player answers incorrectly, they lose 3 health points.
+- If the player answers all questions correctly, they win the game. 
+- If the Player's health reaches 0, they lose the game.
 
 c. Reason for choosing this game:
 
@@ -35,8 +36,9 @@ JS
 5. Future enhancements
 
 Below future enhancements are in the pipeline:
-a. Adding a start window before the actual game
-b. Changing the background image/video with each new question
-c. Make the font more interesting and more organized
-d. Incorporate sound 
-e. incorporating smooth transitions for a better user experience.
+
+- Adding a start window before the actual game
+- Changing the background image/video with each new question
+- Make the font more interesting and more organized
+- Incorporate sound 
+- Incorporating smooth transitions for a better user experience.
