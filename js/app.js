@@ -71,7 +71,7 @@ let health = maxHealth;
 
 /*------------------------ Cached Element References ------------------------*/
 const questionText = document.querySelector("#question");
-const buttons = document.querySelectorAll(".answer-btn");
+const buttons = document.querySelectorAll(".answerButton");
 const healthText = document.querySelector("#health");
 const messageText = document.querySelector("#message");
 const resetBtn = document.querySelector("#reset");
