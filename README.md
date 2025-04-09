@@ -9,7 +9,7 @@ b. Description
 - The game starts with the player having 10 health points.
 - The player is presented with a question and three possible answers
 - If the player answers correctly, they proceed to the next question.
-- If the player answers incorrectly, they lose 3 health points.
+- If the player answers incorrectly, they lose 2 health points.
 - If the player answers all questions correctly, they win the game. 
 - If the Player's health reaches 0, they lose the game.
 
