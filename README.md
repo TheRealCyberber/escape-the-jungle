@@ -19,7 +19,7 @@ I chose this game because it combines between being simple and interesting.
 
 2. Screenshot of the game
 
-<img src="https://i.imgur.com/QcmfYPy.png" alt="Image from Google Drive">
+<img src="https://i.imgur.com/CQSpuBv.png" alt="background image">
 
 
 3. Deployed game link
